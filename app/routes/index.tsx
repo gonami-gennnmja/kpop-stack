@@ -11,20 +11,19 @@ export default function Index() {
             <div className="absolute inset-0">
               <img
                 className="h-full w-full object-cover"
-                src="https://user-images.githubusercontent.com/8431042/161311608-f5d43ab2-85b4-40c5-9dea-065985e5adf5.jpeg"
-                alt="BTS playing on stage with the group leaving in action poses"
+                  src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt5f60f148aa4c0abd/63260bfd0c7ca54c537c9449/GettyImages-1424657540.jpg"
+                alt="son is doing his signiture pose"
               />
               <div className="absolute inset-0 bg-[color:rgba(139,92,246,0.5)] mix-blend-multiply" />
             </div>
             <div className="lg:pb-18 relative px-4 pt-16 pb-8 sm:px-6 sm:pt-24 sm:pb-14 lg:px-8 lg:pt-32">
               <h1 className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl">
-                <span className="block uppercase text-violet-500 drop-shadow-md">
-                  K-Pop Stack
+                  <span className="block uppercase text-indigo-400 drop-shadow-md">
+                  Nami's App
                 </span>
               </h1>
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
-                Check the README.md file for instructions on how to get this
-                project deployed.
+                login & leave a note for me❤
               </p>
               <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                 {user ? (
@@ -51,9 +50,10 @@ export default function Index() {
                   </div>
                 )}
               </div>
-              <a href="https://remix.run">
+              <a href="#">
+                  {/*https://remix.run*/}
                 <img
-                  src="https://user-images.githubusercontent.com/1500684/158298926-e45dafff-3544-4b69-96d6-d3bcc33fc76a.svg"
+                  src="https://www.svgrepo.com/show/207543/cloud.svg"
                   alt="Remix"
                   className="mx-auto mt-16 w-full max-w-[12rem] md:max-w-[16rem]"
                 />
@@ -61,7 +61,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-
+          {/*
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
           <div className="mt-6 flex flex-wrap justify-center gap-8">
             {[
@@ -116,6 +116,7 @@ export default function Index() {
             ))}
           </div>
         </div>
+          */}
       </div>
     </main>
   );
